@@ -20,7 +20,7 @@ void printString2(string s1, string s2, int N){
 		}
 		count++;
 	}
-	cout<<endl;
+	
 }
 
 
@@ -31,6 +31,7 @@ int main()
 		//Edit code here using printString1() and printString2()
 		printString1("5",9-count);
 		printString2("6","9",count);
+		printString1("\n",1);
 		
 		count++;
 	}
